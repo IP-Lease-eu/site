@@ -1,23 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>
+          IP Lease
+        </h1>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          IP Lease is a LIR in the RIPE region. We administer the 83.150.216.0/22 IP range.<br />
+          The IP range is currently leased via the <a className="App-link" href="https://www.ipxo.com/" target="_blank" rel="noopener noreferrer">
+            IPXO platform
+          </a>.<br />
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
       </header>
     </div>
   );
